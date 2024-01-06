@@ -1,6 +1,7 @@
 <script>
-  import Banner from "$lib/banner.svelte";
+  import Banner from "$lib/banner.svelte"
   import { SvelteUIProvider, colorScheme } from "@svelteuidev/core";
+  import { onMount } from "svelte";
 </script>
 
 <SvelteUIProvider
